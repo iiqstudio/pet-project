@@ -21,7 +21,7 @@ const columns = [
 export default function BoardPage() {
   return (
     <AppLayout>
-      <h2>Boards</h2>
+      <h2 className="text-4xl font-bold text-red-500">Boards</h2>
       <div style={{ display: "flex", gap: "16px" }}>
         {columns.map(({ id, title, tasks }) => (
           <div key={id}>
