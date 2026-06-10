@@ -1,14 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import LoginPage from "./pages/login-page";
-
-function BoardPage() {
-  return <h1>BoardPage</h1>;
-}
-
-function BoardsPage() {
-  return <h1>BoardPage</h1>;
-}
+import BoardPage from "./pages/board-page";
+import BoardsPage from "./pages/boards-page";
 
 function App() {
   return (
