@@ -1,7 +1,9 @@
+import AppLayout from "../app/layouts/app-layout";
+
 export default function BoardsPage() {
   return (
-    <div>
+    <AppLayout>
       <h2>Boards page</h2>
-    </div>
+    </AppLayout>
   );
 }
